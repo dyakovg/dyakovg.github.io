@@ -92,7 +92,7 @@
 /* Main tags */
 
 body {
-	background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
+	background: url(/img/background.png) repeat;
 	margin: 0;
 }
 
@@ -386,6 +386,12 @@ ul {
 			border-top-right-radius: 50px;
 			border-bottom-left-radius: 50px;
 		}
+		.social_icons .github:hover{
+			background: #4e4f55;
+			color: #fff;
+			border-top-right-radius: 50px;
+			border-bottom-left-radius: 50px;
+		}
 
 .footer_name {
 	font-style: italic;
@@ -428,4 +434,8 @@ ul {
 hr.half {
 	width: 40%;
 	margin-left:0;
+}
+
+svg {
+	fill: white;
 }
